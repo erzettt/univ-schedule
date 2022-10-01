@@ -1,0 +1,84 @@
+body{
+    margin: 50px 100px;
+    font-family: 'Roboto', sans-serif;
+    background: whitesmoke;
+}
+
+header {
+    margin: 0 auto 20px;
+    text-align: center;
+    width: 670px;
+
+    background: #757575;
+    color: white;
+    font-size: 10px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.main{
+    border: 1px solid black;
+    width: 670px;
+    height: 700px;
+    margin: 0 auto;
+    background: linear-gradient(#757575, whitesmoke);
+    color: #FFFFFF;
+}
+
+.buttons-el{
+    text-align: center;
+}
+
+.buttons{
+    padding: 13px 23px;
+    margin: 20px 10px 10px;
+    cursor: pointer;
+    border: none;
+    background: white;
+    color: #181818 ;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 10px 10px 0 #FFBF64 ;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.buttons:hover,
+.buttons:focus{
+    background: #D2D2D2 ;
+}
+
+.days-container,
+.container, 
+.container-two{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#time-el{
+    margin: 0;
+    border: 1px solid white;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+#schedule-el{
+    margin: 0;
+    border: 1px solid white;
+    padding: 5px;
+    width: 400px;
+    text-align: center;
+}
+
+#for-monday,
+#for-tuesday,
+#for-wednesday,
+#for-thursday,
+#for-friday{
+    display: none;
+}
