@@ -43,7 +43,8 @@ header {
 }
 
 .buttons:hover,
-.buttons:focus{
+.buttons:focus,
+.buttons:active{
     background: #D2D2D2 ;
 }
 
