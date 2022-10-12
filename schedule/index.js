@@ -3,7 +3,6 @@ const tuesdayEl = document.getElementById('tuesday-el')
 const wednesdayEl = document.getElementById('wednesday-el')
 const thursdayEl = document.getElementById('thursday-el')
 const fridayEl = document.getElementById('friday-el')
-const buttonsEl = document.getElementById('buttons')
 
 let forMonday = document.getElementById('for-monday')
 let forTuesday = document.getElementById('for-tuesday')
